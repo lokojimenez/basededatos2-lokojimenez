@@ -1,0 +1,17 @@
+begin
+dbms_outout.put_line('mi primer programa de pl sql');
+end;
+/
+
+programa 2
+
+declare
+nombre varchar2(80);
+edad interger;
+begin
+nombre:='luis darian islas jimenez';
+edad:=27;
+dbms_outout.put_line('hola' ||nombre||'tuedad es'||edad);
+end;
+/
+
